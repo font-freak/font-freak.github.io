@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<head>
+<!--  - - - - - - - - - - - -
+:: STYLESHEET
+- - - - - - - - - - - - - -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="theme-color" content="#111111" />
+<link rel="stylesheet" type="text/css" href="css/core.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" href="css/fontfreak-webfont.css">
+<!--  - - - - - - - - - - - -
+:: PAGE INFO
+- - - - - - - - - - - - - -->
+<title>Bengali Fonts - Font Freak</title>
+<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+<!--  - - - - - - - - - - - -
+:: LINK PARSER
+- - - - - - - - - - - - - -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Font Freak">
+<meta property="og:title" content="Bengali Fonts - Font Freak">
+<meta property="og:description" content="Spice up your Android device with custom Bengali and English fonts. Requires Root and Magisk/TWRP.">
+<meta property="og:url" content="https://font-freak.github.io/1/bn.html">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://font-freak.github.io/1/img/site-preview.jpg">
+</head>
+<body style="overflow-y: scroll;">
+<!--  - - - - - - - - - - - -
+:: HIDDEN PRELOAD
+- - - - - - - - - - - - - -->
+<div style="display: none;">
+    <img id="bitly" src="https://bit.ly/ff_Bengali" />
+    <img src="https://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=FontFreak" />
+</div>
+<div class="footerless">
+<!--  - - - - - - - - - - - -
+:: PAGE HEADER
+- - - - - - - - - - - - - -->
+<!-- MOBILE HEADER -->
+<div class="topbar bottomrow stickymenu mobile">
+  <div class="container">
+      <a class="menulink menu" id="navstart" onclick="navMenu()"><i class="ff ff-menu" aria-hidden="true"></i></a>
+      <a class="menulink menu" id="navend" style="display: none;" onclick="navMenu()"><i class="ff ff-cross" aria-hidden="true"></i></a>
+      <a class="logolink" href="javascript:void(0)" onclick="window.location.href='https://font-freak.github.io/1/'" title="Font Freak"><img class="logotop ignore" src="img/logo.webp" alt="Font Feak Logo" /></a>
+      <a class="menulink search" id="findstart" onclick="navSearch()"><i class="ff ff-search" aria-hidden="true"></i></a>
+      <a class="menulink search" id="findend" style="display: none;" onclick="navSearch()"><i class="ff ff-cross" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+<!-- MOBILE MENU -->
+<div class="mobile">
+  <div id="nav" style="display: none;" class="menufull flex">
+    <a href="/1/" style="order: 1;" class="menubtn menulink">Home</a>
+    <a href="bn.html" style="order: 2;" class="menubtn menulink menunow">Bengali Fonts</a>
+    <a href="automizer.html" style="order: 3;" class="menubtn menulink">Font Automizer</a>
+    <a href="tutorials.html" style="order: 4;" class="menubtn menulink">Tutorials</a>
+    <a href="about.html" style="order: 5;" class="menubtn menulink">About</a>
+  </div>
+</div>
+
+<!-- MOBILE SEARCH -->
+<div class="mobile">
+  <div id="find" style="display: none;" class="menufull flex">
+    <form class="findfrm flex2" method="get" action="search.html">
+      <input type="text" class="findbox" placeholder="What do you need?" name="q" required>
+      <input type="submit" class="findbtn" value="Search">
+    </form>
+    <div style="margin-top: 15px;" class="flex2">
+      <span style="color: #656565;">powered by <strong>Google</strong> Custom Search</span>
+    </div>
+  </div>
+</div>
+
+<!-- FONT PREVIEW -->
+<div style="display: none;" id="preview" class="menufull flex">
+  <span id="pretext" class="fname" style="margin-bottom: 15px;color: #fff;">FONT NAME</span>
+  <img src="" style="max-width: 90%;max-height: 80%;color: #fff;" alt="loading..." />
+  <span style="margin-top: 15px;color: #fff;"><strong>Image: </strong>Wikipedia on Firefox for Android.</span>
+</div>
+
+<!-- DESKTOP QR -->
+<div class="desktop">
+  <div style="display: none;" id="qrview" class="menufull flex">
+    <img src="" style="max-width: 90%;color: #fff;" alt="fetching..." />
+  </div>
+</div>
+
+<!-- MOBILE SHARE -->
+<div class="mobile">
+  <div style="display: none;" id="shareview" class="menufull flex2 stayput">
+    <div class="flex">
+      <a href="" id="facebook-share" target="_blank" class="sharebtn menulink"><i class="ff ff-facebook" aria-hidden="true"></i></a>
+      <a href="" id="twitter-share" target="_blank" class="sharebtn menulink"><i class="ff ff-twitter" aria-hidden="true"></i></a>
+      <a href="" id="reddit-share" target="_blank" class="sharebtn menulink"><i class="ff ff-reddit" aria-hidden="true"></i></a>
+      <a href="" id="evernote-share" target="_blank" class="sharebtn menulink"><i class="ff ff-evernote" aria-hidden="true"></i></a>
+    </div>
+    <div class="flex">
+      <a href="" id="mail-share" class="sharebtn menulink"><i class="ff ff-mail" aria-hidden="true"></i></a>
+      <a href="" id="skype-share" target="_blank" class="sharebtn menulink"><i class="ff ff-skype" aria-hidden="true"></i></a>
+      <a href="" id="whatsapp-share" target="_blank" class="sharebtn menulink"><i class="ff ff-whatsapp" aria-hidden="true"></i></a>
+      <a href="" id="telegram-share" target="_blank" class="sharebtn menulink"><i class="ff ff-telegram" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- DESKTOP HEADER -->
+<div class="topbar middlerow desktop">
+  <div class="container">
+    <div style="margin-left: 15px;" class="floatleft">
+      <a href="javascript:void(0)" onclick="window.location.href='https://font-freak.github.io/1/'" title="Font Freak"><img class="logotop ignore" src="img/logo.webp" alt="Font Feak Logo" /></a>
+    </div>
+    <div style="margin: 30px 15px 30px 0;" class="floatright">
+      <form class="findfrm flex2" method="get" action="search.html">
+        <input type="text" class="findbox" placeholder="What do you need?" name="q" required>
+        <input type="submit" class="findbtn" value="Search">
+      </form>
+    </div>
+  </div>
+</div>
+<div class="topbar bottomrow linebelow stickymenu desktop">
+  <div class="container">
+    <div class="row" style="margin: 0 10px;">
+      <ul class="navul linebelow">
+        <li class="navli lineright lineleft"><a href="/1/">Home</a></li>
+        <li class="navli lineright"><a href="bn.html">Bengali Fonts</a></li>
+        <li class="navli lineright"><a href="automizer.html">Font Automizer</a></li>
+        <li class="navli lineright" style="float: right;"><a href="about.html">About</a></li>
+        <li class="navli lineleft lineright" style="float: right;"><a href="tutorials.html">Tutorials</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--  - - - - - - - - - - - -
+:: SPLASH
+- - - - - - - - - - - - - -->
+<div class="secthead">
+  <div class="sectheader container flex">
+    <div class="sectheading">
+      <h2 class="desktop">••► Bengali Fonts</h2>
+      <h2 class="textcenter mobile">••► Bengali Fonts ◄••</h2>
+    </div>
+  </div>
+</div>
+
+<!--  - - - - - - - - - - - -
+:: CONTENT
+- - - - - - - - - - - - - -->
+<div style="padding-bottom: 40px;" class="container">
+
+  <!-- BAR 0 -->
+  <div class="row rowling">
+    <div class="col-12 col-m12">
+      <div class="row cbox2">
+        <div class="cols-12 fname cname">
+          <span class="cname">
+            #
+          </span>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 1 -->
+    <div id="DefaultFonts" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12" st="[BN] Default Font" si="bn_DefaultFonts" src="img/thumb/bn_DefaultFonts.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Default Fonts</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.00<br>
+            <strong>Updated: </strong>Mar 09. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12 disabled" href="javascript:void(0)">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12 disabled" href="javascript:void(0)">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_DefaultFonts&get=1IP1jxmDzEVP1a7jLNIyZrp48_zQPfuHs" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="DefaultFonts">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="DefaultFonts" st="Default Fonts">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- ROW 0 COMPLETE -->
+
+  <!-- BAR 1 -->
+  <div class="row rowling">
+    <div class="col-12 col-m12">
+      <div class="row cbox2">
+        <div class="cols-12 fname cname">
+          <span class="cname">
+            A
+          </span>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 1 -->
+    <div id="Atma" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Atma Font" si="bn_Atma" src="img/thumb/bn_Atma.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Atma</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.03<br>
+            <strong>Updated: </strong>Jan 22. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_Atma" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_Atma&get=1p8KETXOLp8zC7CA-XP8v5njh9CDmaE2P" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_Atma&get=1KdKECfODUzF9MBZgAnhdGlKE0_cPphng" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="Atma">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="Atma" st="Atma">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  <!-- ROW 1 COMPLETE -->
+
+  <!-- BAR 2 -->
+  <div class="row rowling">
+    <div class="col-12 col-m12">
+      <div class="row cbox2">
+        <div class="cols-12 fname cname">
+          <span class="cname">
+            B
+          </span>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 1 -->
+    <div id="BenSenHandwriting" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] BenSenHandwriting Font" si="bn_BenSenHandwriting" src="img/thumb/bn_BenSenHandwriting.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">BenSenHandwriting</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.06<br>
+            <strong>Updated: </strong>Apr 03. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_BenSenHandwriting" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_BenSenHandwriting&get=1qss0LT0eFwnuLt3VSKsbfEEN_iaYV6-V" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_BenSenHandwriting&get=1Ivdnw4gpnfc7isMptZE_jXm7-HB2OSkh" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="BenSenHandwriting">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="BenSenHandwriting" st="BenSenHandwriting">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>    <!-- ROW 2 COMPLETE -->
+
+  <!-- BAR 3 -->
+  <div class="row rowling">
+    <div class="col-12 col-m12">
+      <div class="row cbox2">
+        <div class="cols-12 fname cname">
+          <span class="cname">
+            E
+          </span>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 1 -->
+    <div id="EkusheyDurga" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Ekushey Durga Font" si="bn_EkusheyDurga" src="img/thumb/bn_EkusheyDurga.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Ekushey Durga</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.05<br>
+            <strong>Updated: </strong>Feb 19. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_EkusheyDurga" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyDurga&get=1D9GV4DeMJLdsAlEmND0YXjVp7Xso6KRd" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyDurga&get=1f8VQJCpIdO4ynrkJrXRFxUPM1VtyGmDh" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="EkusheyDurga">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="EkusheyDurga" st="Ekushey Durga">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 2 -->
+    <div id="EkusheyLalSabuj" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Ekushey Lal Sabuj Font" si="bn_EkusheyLalSabuj" src="img/thumb/bn_EkusheyLalSabuj.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Ekushey Lal Sabuj</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.01<br>
+            <strong>Updated: </strong>Feb 20. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_EkusheyLalSabuj" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyLalSabuj&get=1L6E3AlyVWq60Yk7-KRukFL6bJ4Ktegzc" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyLalSabuj&get=1sS4_dnuCRN9wMi91gc-PHMVqg2TkOLrY" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="EkusheyLalSabuj">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="EkusheyLalSabuj" st="Ekushey Lal Sabuj">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 3 -->
+    <div id="EkusheyLalSabujNormal" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Ekushey Lal Sabuj Normal Font" si="bn_EkusheyLalSabujNormal" src="img/thumb/bn_EkusheyLalSabujNormal.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Ekushey Lal Sabuj Normal</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.01<br>
+            <strong>Updated: </strong>Feb 20. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_EkusheyLalSabujNormal" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyLalSabujNormal&get=1--EMJawiY6yAL34TqMjam6lJlNT_cy9y" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyLalSabujNormal&get=1b4BeUIjT-7Z-lDzq3vMzF9kSIP4elY0n" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="EkusheyLalSabujNormal">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="EkusheyLalSabujNormal" st="Ekushey Lal Sabuj Normal">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 4 -->
+    <div id="EkusheyLekhani" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Ekushey Lekhani Font" si="bn_EkusheyLekhani" src="img/thumb/bn_EkusheyLekhani.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Ekushey Lekhani</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.02<br>
+            <strong>Updated: </strong>Feb 21. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_EkusheyLekhani" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyLekhani&get=1KjlrM9DeS1EXRfRumDSUw7kKE6CJ5LVl" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyLekhani&get=1YE-0FO9ohV7gQNhX8wK2kW-I4FJOtyjC" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="EkusheyLekhani">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="EkusheyLekhani">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 5 -->
+    <div id="EkusheyLohit" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Ekushey Lohit Font" si="bn_EkusheyLohit" src="img/thumb/bn_EkusheyLohit.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Ekushey Lohit</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.04<br>
+            <strong>Updated: </strong>Feb 20. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_EkusheyLohit" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyLohit&get=1RR8lakEvEd1uPhDQpycCl-GaiL7g5wAf" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyLohit&get=1TPTZQTF144XnADlDlQ2fHIb6_7pgf18s" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="EkusheyLohit">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="EkusheyLohit" st="Ekushey Lohit">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 6 -->
+    <div id="EkusheyMukto" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Ekushey Mukto Font" si="bn_EkusheyMukto" src="img/thumb/bn_EkusheyMukto.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Ekushey Mukto</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.04<br>
+            <strong>Updated: </strong>Feb 20. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_EkusheyMukto" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyMukto&get=1wteVkCWLWn_pt4U6KCd_VXnr4tLuhgyy" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyMukto&get=15wuxHSmw_m-_s5SyutwMVOmLiPwuxKw-" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="EkusheyMukto">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="EkusheyMukto" st="Ekushey Mukto">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 7 -->
+    <div id="EkusheyPuja" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Ekushey Puja Font" si="bn_EkusheyPuja" src="img/thumb/bn_EkusheyPuja.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Ekushey Puja</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.03<br>
+            <strong>Updated: </strong>Feb 20. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_EkusheyPuja" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyPuja&get=1Fbi1NC7ef9xSKNNowkW_qTD27dOvxOqq" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyPuja&get=13wy30GZCpnY8aNWpewOEfOrBEVF18WCq" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="EkusheyPuja">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="EkusheyPuja" st="Ekushey Puja">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 8 -->
+    <div id="EkusheyPunarbhaba" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Ekushey Punarbhaba Font" si="bn_EkusheyPunarbhaba" src="img/thumb/bn_EkusheyPunarbhaba.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Ekushey Punarbhaba</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.01<br>
+            <strong>Updated: </strong>Feb 19. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_EkusheyPunarbhaba" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyPunarbhaba&get=1Q9yu1SJ9xcrXFLSUSXrnElR2wJawa71F" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_EkusheyPunarbhaba&get=1kvMoLYwc42ncCfa_rhbLPjzNN-XtrKQw" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="EkusheyPunarbhaba">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="EkusheyPunarbhaba" st="Ekushey Punarbhaba">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 9 -->
+    <div id="EkusheySaraswatii" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Ekushey Saraswatii Font" si="bn_EkusheySaraswatii" src="img/thumb/bn_EkusheySaraswatii.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Ekushey Saraswatii</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.05<br>
+            <strong>Updated: </strong>Feb 20. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_EkusheySaraswatii" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_EkusheySaraswatii&get=1DeTDwMhhQh1F4kqOSGiF9TX_ZjCXubRV" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_EkusheySaraswatii&get=1lJ-e_g-wMc8bDUa28-SiYQWCEF8YbH-r" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="EkusheySaraswatii">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="EkusheySaraswatii" st="Ekushey Saraswatii">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- ROW 3 COMPLETE -->
+
+  <!-- BAR 4 -->
+  <div class="row rowling">
+    <div class="col-12 col-m12">
+      <div class="row cbox2">
+        <div class="cols-12 fname cname">
+          <span class="cname">
+            H
+          </span>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 1 -->
+    <div id="HindSiliguri" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Hind Siliguri Font" si="bn_HindSiliguri" src="img/thumb/bn_HindSiliguri.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Hind Siliguri</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.04<br>
+            <strong>Updated: </strong>Feb 20. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_HindSiliguri" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_HindSiliguri&get=12bDf-d1yAG0e_7owiuy8czil9WIOJzSK" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_HindSiliguri&get=1OCIxnQoeyWelX62FVxm0wZLp1N21moDZ" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="HindSiliguri">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="HindSiliguri" st="Hind Siliguri">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- ROW 4 COMPLETE -->
+
+  <!-- BAR 5 -->
+  <div class="row rowling">
+    <div class="col-12 col-m12">
+      <div class="row cbox2">
+        <div class="cols-12 fname cname">
+          <span class="cname">
+            K
+          </span>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 1 -->
+    <div id="Kalpurush" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Kalpurush Font" si="bn_Kalpurush" src="img/thumb/bn_Kalpurush.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Kalpurush</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.04<br>
+            <strong>Updated: </strong>Feb 20. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_Kalpurush" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_Kalpurush&get=1BnGs9OnAyRBZvdgSrC1rX_ASsa7zvwrO" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_Kalpurush&get=1ybQY6kQ4XyA_cCVOFSwk20rYZ_yD-jjX" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="Kalpurush">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="Kalpurush" st="Kalpurush">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  <!-- ROW 5 COMPLETE -->
+
+  <!-- BAR 6 -->
+  <div class="row rowling">
+    <div class="col-12 col-m12">
+      <div class="row cbox2">
+        <div class="cols-12 fname cname">
+          <span class="cname">
+            S
+          </span>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 1 -->
+    <div id="SiyamRupali" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] Siyam Rupali Font" si="bn_SiyamRupali" src="img/thumb/bn_SiyamRupali.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">Siyam Rupali</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.04<br>
+            <strong>Updated: </strong>Feb 20. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_SiyamRupali" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_SiyamRupali&get=12jgmYsyyDpFH1Bfr7rTvZP2hpZ7b4dSx" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_SiyamRupali&get=1I9PamPTegzO4raMDmQD7NRGOHWYqp1-v" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="SiyamRupali">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="SiyamRupali" st="Siyam Rupali">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- BOX 2 -->
+    <div id="SolaimanLipi" class="col-4 col-m6 col-b3">
+      <div class="row cbox">
+        <div class="cols-12"> <!-- THUMBNAIL -->
+          <img class="cols-12 preview" st="[BN] SolaimanLipi Font" si="bn_SolaimanLipi" src="img/thumb/bn_SolaimanLipi.jpg" />
+        </div>
+        <div class="cols-12"> <!-- TITLE -->
+          <span class="cols-12 fname textcenter">SolaimanLipi</span>
+        </div>
+        <div class="cols-12"> <!-- DESCRIPTION -->
+          <span class="cols-12 textcenter dname">
+            <strong>Version: </strong>1.02<br>
+            <strong>Updated: </strong>Feb 20. 2020.
+          </span>
+        </div>
+        <div class="cols-12 buttonmargin"> <!-- BUTTONS -->
+          <div class="row">
+            <ul class="boxul">
+              <li class="boxli cols-3"> <!-- GITHUB -->
+                <a class="cols-12" href="https://github.com/font-freak/bn_SolaimanLipi" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-github" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- MAGISK -->
+                <a class="cols-12" href="download.html?id=bn_SolaimanLipi&get=1ltLyVdLjBd7NiF9mIGUhVQp08FlnF8qr" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-magisk" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3"> <!-- RECOVERY -->
+                <a class="cols-12" href="download.html?id=bn_SolaimanLipi&get=18pzN2SrKO_Nm9--759JF_LtuEeKzeoDV" target="_blank">
+                  <span class="boxbtn"><i class="ff ff-twrp" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 desktop"> <!-- QR -->
+                <a class="cols-12 qrview" href="javascript:void(0)" fl="bn" qr="SolaimanLipi">
+                  <span class="boxbtn"><i class="ff ff-qr" aria-hidden="true"></i></span>
+                </a>
+              </li>
+              <li class="boxli cols-3 mobile"> <!-- SHARE -->
+                <a class="cols-12 shareview" href="javascript:void(0)" sp="bn" sl="SolaimanLipi" st="SolaimanLipi">
+                  <span class="boxbtn"><i class="ff ff-share" aria-hidden="true"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- ROW 6 COMPLETE -->
+
+</div>
+</div>
+
+<!--  - - - - - - - - - - - -
+:: PAGE FOOTER
+- - - - - - - - - - - - - -->
+<div id="footer" class="topbar toprow">
+  <div class="container">
+    <div class="floatleft" style="margin-left: 25px;">
+      <a href="https://font-freak.github.io" class="menulink" style="padding: 15px;">font-freak.github.io</a>
+    </div>
+    <div class="floatright" style="margin-right: 25px;">
+      <a href="https://t.me/FontFreak" class="menulink"><i class="ff ff-telegram" aria-hidden="true" style="padding: 15px;"></i></a>
+      <a href="https://github.com/font-freak" class="menulink"><i class="ff ff-github" aria-hidden="true" style="padding: 15px;"></i></a>
+    </div>
+  </div>
+</div>
+
+<!--  - - - - - - - - - - - -
+:: JAVASCRIPT & JQUERY
+- - - - - - - - - - - - - -->
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/core.js"></script>
+<script type="text/javascript" src="js/misc.js"></script>
+</body>
+</html>

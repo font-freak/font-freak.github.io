@@ -1,0 +1,53 @@
+/* ==========================
+:: Font Name: FontFreakWeb
+:: CSS Identity: FontFreak Web Font
+:: Template Designer: NaeemBolchhi
+:: Template Designer URI: https://naeembolchhi.github.io/
+:: Telegram Profile: https://t.me/NaeemBolchhi
+:: Telegram Group: https://t.me/FontFreak
+:: Description: A fork of Font Awesome optimised and customised for Font Freak.
+:: Version: v1.0
+:: License: Licensed under the GNU General Public License v3.
+:: License URL: https://www.gnu.org/licenses/gpl-3.0.html
+:: Created: 06/12/2019
+========================== */
+
+@font-face{font-family:'FontFreakWeb';
+/* --------------------------
+:: Links Start
+-------------------------- */
+src:url('font/fontfreak-webfont.woff2') format('woff2'),
+url('font/fontfreak-webfont.woff') format('woff');
+font-weight:normal;font-style:normal;}
+/* --------------------------
+:: Links Finish
+-------------------------- */
+.ff{display:inline-block;font:normal normal normal 14px/1 FontFreakWeb;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ff-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}.ff-2x{font-size:2em}.ff-3x{font-size:3em}.ff-4x{font-size:4em}.ff-5x{font-size:5em}.ff-fw{width:1.28571429em;text-align:center}.ff-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none}.ff-ul>li{position:relative}.ff-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:.14285714em;text-align:center}.ff-li.ff-lg{left:-1.85714286em}.ff-border{padding:.2em .25em .15em;border:solid .08em #eee;border-radius:.1em}.ff-pull-left{float:left}.ff-pull-right{float:right}.ff.ff-pull-left{margin-right:.3em}.ff.ff-pull-right{margin-left:.3em}.pull-right{float:right}.pull-left{float:left}.ff.pull-left{margin-right:.3em}.ff.pull-right{margin-left:.3em}.ff-spin{-webkit-animation:ff-spin 2s infinite linear;animation:ff-spin 2s infinite linear}.ff-pulse{-webkit-animation:ff-spin 1s infinite steps(8);animation:ff-spin 1s infinite steps(8)}@-webkit-keyframes ff-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes ff-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}.ff-rotate-90{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.ff-rotate-180{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.ff-rotate-270{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}.ff-flip-horizontal{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";-webkit-transform:scale(-1, 1);-ms-transform:scale(-1, 1);transform:scale(-1, 1)}.ff-flip-vertical{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";-webkit-transform:scale(1, -1);-ms-transform:scale(1, -1);transform:scale(1, -1)}:root .ff-rotate-90,:root .ff-rotate-180,:root .ff-rotate-270,:root .ff-flip-horizontal,:root .ff-flip-vertical{filter:none}.ff-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}.ff-stack-1x,.ff-stack-2x{position:absolute;left:0;width:100%;text-align:center}.ff-stack-1x{line-height:inherit}.ff-stack-2x{font-size:2em}.ff-inverse{color:#fff}
+/* --------------------------
+:: Define Icons Start
+-------------------------- */
+.ff-fontfreak:before{content:"\f000"}
+.ff-menu:before{content:"\f001"}
+.ff-search:before{content:"\f002"}
+.ff-cross:before{content:"\f003"}
+.ff-telegram:before{content:"\f004"}
+.ff-github:before{content:"\f005"}
+.ff-download:before{content:"\f006"}
+.ff-qr:before{content:"\f007"}
+.ff-magisk:before{content:"\f008"}
+.ff-twrp:before{content:"\f009"}
+.ff-share:before{content:"\f00a"}
+.ff-facebook:before{content:"\f00b"}
+.ff-twitter:before{content:"\f00c"}
+.ff-reddit:before{content:"\f00d"}
+.ff-evernote:before{content:"\f00e"}
+.ff-mail:before{content:"\f00f"}
+.ff-skype:before{content:"\f010"}
+.ff-whatsapp:before{content:"\f011"}
+.ff-pen:before{content:"\f012"}
+.ff-greasyfork:before{content:"\f013"}
+.ff-expand:before{content:"\f014"}
+/* --------------------------
+:: Define Icons Finish
+-------------------------- */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}

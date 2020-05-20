@@ -1,0 +1,191 @@
+/* ==========================
+:: Template Name: FF Graphite
+:: CSS Identity: Responsive
+:: Template Designer: NaeemBolchhi
+:: Template Designer URI: https://naeembolchhi.github.io/
+:: Telegram Profile: https://t.me/NaeemBolchhi
+:: Telegram Group: https://t.me/FontFreak
+:: Description: Made for the core website of Font Freak.
+:: Version: v1.0
+:: Created: 29/11/2019
+========================== */
+
+/* --------------------------
+:: Responsive Switch
+-------------------------- */
+/* Mobile First */
+.desktop {
+  display: none !important;
+}
+@media only screen and (min-width: 768px) {
+  .desktop {
+    display: block !important;
+  }
+  .mobile {
+    display: none !important;
+  }
+}
+
+/* --------------------------
+:: Tablet Alternatives
+-------------------------- */
+@media only screen and (min-width: 600px) {
+  /* Content Columns */
+  .col-m1 {width: 8.33%;}
+  .col-m2 {width: 16.66%;}
+  .col-m3 {width: 25%;}
+  .col-m4 {width: 33.33%;}
+  .col-m5 {width: 41.66%;}
+  .col-m6 {width: 50%;}
+  .col-m7 {width: 58.33%;}
+  .col-m8 {width: 66.66%;}
+  .col-m9 {width: 75%;}
+  .col-m10 {width: 83.33%;}
+  .col-m11 {width: 91.66%;}
+  .col-m12 {width: 100%;}
+  
+  /* Content Box */
+  .fname {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .dname {
+    font-size: 14px;
+  }
+  .boxbtn {
+    font-size: 28px;
+  }
+}
+
+/* --------------------------
+:: Desktop Alternatives
+-------------------------- */
+@media only screen and (min-width: 768px) {
+  /* Content Columns */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  /* General */
+  .logotop {
+    max-height: 60px;
+    padding: 30px 0px;
+  }
+  .bottomrow {
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+  }
+  .boxbtn {
+    font-size: 25px;
+  }
+  .cname {
+    font-size: 16px;
+    text-align: center;
+	padding-left: 30px;
+	text-align: left;
+  }
+
+  /* Z-Index */
+  #qrview {
+    z-index: 19;
+  }
+  #shareview {
+    z-index: 19;
+  }
+  #preview {
+    z-index: 20;
+  }
+  
+  /* Show New */
+  .show3 {
+    display: block;
+  }
+  
+  /* Splash */
+  .splashade {
+    min-height: 350px;
+  }
+  .splashtxt {
+    font-size: 50px;
+  }
+  .splashtxt1 {
+    padding: 15px 0px;
+  }
+  .splashtxt2 {
+    font-size: 25px;
+  }
+  .splashtxt3 {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  
+  /* Search */
+  .findfrm {
+    width: 300px;
+    border: 5px solid #555;
+  }
+  .findbox {
+    width: 70%;
+  }
+  .findbtn {
+    width: 30%;
+  }
+
+  /* Download Page */
+  .dload {
+    display: table;
+    padding: 10px;
+  }
+  .dicon {
+    display: table-cell;
+    text-align: left;
+    width: 100px;
+  }
+  .dspan {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    margin: 0;
+  }
+  .dtry {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    width: 120px;
+    margin: 0;
+  }
+}
+
+/* --------------------------
+:: Widescreen Alternatives
+-------------------------- */
+@media only screen and (min-width: 1000px) {
+  /* Content Columns */
+  .col-b1 {width: 8.33%;}
+  .col-b2 {width: 16.66%;}
+  .col-b3 {width: 25%;}
+  .col-b4 {width: 33.33%;}
+  .col-b5 {width: 41.66%;}
+  .col-b6 {width: 50%;}
+  .col-b7 {width: 58.33%;}
+  .col-b8 {width: 66.66%;}
+  .col-b9 {width: 75%;}
+  .col-b10 {width: 83.33%;}
+  .col-b11 {width: 91.66%;}
+  .col-b12 {width: 100%;}
+  
+  /* Show New */
+  .show4 {
+    display: block;
+  }
+}

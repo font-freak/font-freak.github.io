@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<head>
+<!--  - - - - - - - - - - - -
+:: STYLESHEET
+- - - - - - - - - - - - - -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="theme-color" content="#111111" />
+<link rel="stylesheet" type="text/css" href="css/core.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" href="css/fontfreak-webfont.css">
+<!--  - - - - - - - - - - - -
+:: PAGE INFO
+- - - - - - - - - - - - - -->
+<title>About - Font Freak</title>
+<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+<!--  - - - - - - - - - - - -
+:: LINK PARSER
+- - - - - - - - - - - - - -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Font Freak">
+<meta property="og:title" content="About - Font Freak">
+<meta property="og:description" content="Spice up your Android device with custom Bengali and English fonts. Requires Root and Magisk/TWRP.">
+<meta property="og:url" content="https://font-freak.github.io/1/about.html">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://font-freak.github.io/1/img/site-preview.jpg">
+</head>
+<body style="overflow-y: scroll;">
+<!--  - - - - - - - - - - - -
+:: HIDDEN PRELOAD
+- - - - - - - - - - - - - -->
+<div style="display: none;">
+    <img id="bitly" src="https://bit.ly/ff_About" />
+    <img src="https://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=FontFreak" />
+</div>
+<div class="footerless">
+<!--  - - - - - - - - - - - -
+:: PAGE HEADER
+- - - - - - - - - - - - - -->
+<!-- MOBILE HEADER -->
+<div class="topbar bottomrow stickymenu mobile">
+  <div class="container">
+      <a class="menulink menu" id="navstart" onclick="navMenu()"><i class="ff ff-menu" aria-hidden="true"></i></a>
+      <a class="menulink menu" id="navend" style="display: none;" onclick="navMenu()"><i class="ff ff-cross" aria-hidden="true"></i></a>
+      <a class="logolink" href="javascript:void(0)" onclick="window.location.href='https://font-freak.github.io/1/'" title="Font Freak"><img class="logotop ignore" src="img/logo.webp" alt="Font Feak Logo" /></a>
+      <a class="menulink search" id="findstart" onclick="navSearch()"><i class="ff ff-search" aria-hidden="true"></i></a>
+      <a class="menulink search" id="findend" style="display: none;" onclick="navSearch()"><i class="ff ff-cross" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+<!-- MOBILE MENU -->
+<div class="mobile">
+  <div id="nav" style="display: none;" class="menufull flex">
+    <a href="/1/" style="order: 1;" class="menubtn menulink">Home</a>
+    <a href="bn.html" style="order: 2;" class="menubtn menulink">Bengali Fonts</a>
+    <a href="automizer.html" style="order: 3;" class="menubtn menulink">Font Automizer</a>
+    <a href="tutorials.html" style="order: 4;" class="menubtn menulink">Tutorials</a>
+    <a href="about.html" style="order: 5;" class="menubtn menulink menunow">About</a>
+  </div>
+</div>
+
+<!-- MOBILE SEARCH -->
+<div class="mobile">
+  <div id="find" style="display: none;" class="menufull flex">
+    <form class="findfrm flex2" method="get" action="search.html">
+      <input type="text" class="findbox" placeholder="What do you need?" name="q" required>
+      <input type="submit" class="findbtn" value="Search">
+    </form>
+    <div style="margin-top: 15px;" class="flex2">
+      <span style="color: #656565;">powered by <strong>Google</strong> Custom Search</span>
+    </div>
+  </div>
+</div>
+
+<!-- DESKTOP HEADER -->
+<div class="topbar middlerow desktop">
+  <div class="container">
+    <div style="margin-left: 15px;" class="floatleft">
+      <a href="javascript:void(0)" onclick="window.location.href='https://font-freak.github.io/1/'" title="Font Freak"><img class="logotop ignore" src="img/logo.webp" alt="Font Feak Logo" /></a>
+    </div>
+    <div style="margin: 30px 15px 30px 0;" class="floatright">
+      <form class="findfrm flex2" method="get" action="search.html">
+        <input type="text" class="findbox" placeholder="What do you need?" name="q" required>
+        <input type="submit" class="findbtn" value="Search">
+      </form>
+    </div>
+  </div>
+</div>
+<div class="topbar bottomrow linebelow stickymenu desktop">
+  <div class="container">
+    <div class="row" style="margin: 0 10px;">
+      <ul class="navul linebelow">
+        <li class="navli lineright lineleft"><a href="/1/">Home</a></li>
+        <li class="navli lineright"><a href="bn.html">Bengali Fonts</a></li>
+        <li class="navli lineright"><a href="automizer.html">Font Automizer</a></li>
+        <li class="navli lineright" style="float: right;"><a href="about.html">About</a></li>
+        <li class="navli lineleft lineright" style="float: right;"><a href="tutorials.html">Tutorials</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--  - - - - - - - - - - - -
+:: SPLASH
+- - - - - - - - - - - - - -->
+<div class="secthead">
+  <div class="sectheader container flex">
+    <div class="sectheading">
+      <h2 class="desktop">••► About</h2>
+      <h2 class="textcenter mobile">••► About ◄••</h2>
+    </div>
+  </div>
+</div>
+
+<!--  - - - - - - - - - - - -
+:: CONTENT
+- - - - - - - - - - - - - -->
+<div style="padding-bottom: 40px;" class="container2">
+  <div class="row rowling">
+
+  <!-- ROW 1 -->
+    <div class="col-12 col-m12 col-b12">
+      <div class="row cbox">
+        <div class="tbox">
+          <h3>What's Font Freak?</h3>
+          <p>Font Freak is a dedicated repo for Bengali and English fonts for Android. It is aimed at making the process of changing fonts easy and effortless so that you can move from one font to another whenever you want. The font packages can be used with Magisk Manager (ROOT) or a third-party recovery like TWRP.</p>
+        </div>
+      </div>
+    </div>
+
+  <!-- ROW 2 -->
+    <div class="col-12 col-m12 col-b12">
+      <div class="row cbox">
+        <div class="tbox">
+          <h3>Where is the project?</h3>
+          <p>Font Freak is maintained and developed with community feedback through a <a href="https://t.me/FontFreak" target="_blank">Telegram Group</a>. All font packages are open-source and their source code can be found on <a href="https://github.com/Font-Freak" target="_blank">Github</a>.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<!--  - - - - - - - - - - - -
+:: PAGE FOOTER
+- - - - - - - - - - - - - -->
+<div id="footer" class="topbar toprow">
+  <div class="container">
+    <div class="floatleft" style="margin-left: 25px;">
+      <a href="https://font-freak.github.io" class="menulink" style="padding: 15px;">font-freak.github.io</a>
+    </div>
+    <div class="floatright" style="margin-right: 25px;">
+      <a href="https://t.me/FontFreak" class="menulink"><i class="ff ff-telegram" aria-hidden="true" style="padding: 15px;"></i></a>
+      <a href="https://github.com/font-freak" class="menulink"><i class="ff ff-github" aria-hidden="true" style="padding: 15px;"></i></a>
+    </div>
+  </div>
+</div>
+
+<!--  - - - - - - - - - - - -
+:: JAVASCRIPT & JQUERY
+- - - - - - - - - - - - - -->
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/core.js"></script>
+<script type="text/javascript" src="js/misc.js"></script>
+<script type="text/javascript" src="js/get.js"></script>
+</body>
+</html>
