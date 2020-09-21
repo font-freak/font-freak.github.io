@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head><title>QR Generator</title>
+<style>body {margin: 0;}</style>
+<script>
+function validateForm1() {
+  var x = document.forms["getLINK"]["cht"].value;
+  if (x == "") {
+    alert("Chart Type must be filled out");
+    return false;
+  }
+  var x = document.forms["getLINK"]["chs"].value;
+  if (x == "") {
+    alert("Size must be filled out");
+    return false;
+  }
+  var x = document.forms["getLINK"]["chl"].value;
+  if (x == "") {
+    alert("Link/Text must be filled out");
+    return false;
+  }
+}
+function validateForm2() {
+  var x = document.forms["postLINK"]["cht"].value;
+  if (x == "") {
+    alert("Chart Type must be filled out");
+    return false;
+  }
+  var x = document.forms["postLINK"]["chs"].value;
+  if (x == "") {
+    alert("Size must be filled out");
+    return false;
+  }
+  var x = document.forms["postLINK"]["chl"].value;
+  if (x == "") {
+    alert("Link/Text must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+<h1 style="text-align: center;">GET FORM</h1>
+<form style="text-align: center;" name="getLINK" action="https://chart.apis.google.com/chart" onsubmit="return validateForm1()" method="get">
+  CHART TYPE<br><input style="width: 90%;max-width: 960px;" type="text" name="cht" value="qr"><br><br>
+  SIZE<br><input style="width: 90%;max-width: 960px;" type="text" name="chs" value="500x500"><br><br>
+  LINK/TEXT<br><input style="width: 90%;max-width: 960px;" type="text" name="chl"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<br><br><hr><hr><br>
+<h1 style="text-align: center;">POST FORM</h1>
+<form style="text-align: center;" name="postLINK" action="https://chart.apis.google.com/chart" onsubmit="return validateForm2()" method="post">
+  CHART TYPE<br><input style="width: 90%;max-width: 960px;" type="text" name="cht" value="qr"><br><br>
+  SIZE<br><input style="width: 90%;max-width: 960px;" type="text" name="chs" value="500x500"><br><br>
+  LINK/TEXT<br><input style="width: 90%;max-width: 960px;" type="text" name="chl"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
